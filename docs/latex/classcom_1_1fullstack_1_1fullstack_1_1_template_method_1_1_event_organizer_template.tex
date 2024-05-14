@@ -1,0 +1,94 @@
+\doxysection{com.\+fullstack.\+fullstack.\+Template\+Method.\+Event\+Organizer\+Template Class Reference}
+\hypertarget{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template}{}\label{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template}\index{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}}
+
+
+This abstract class defines a template for organizing events.  
+
+
+Inheritance diagram for com.\+fullstack.\+fullstack.\+Template\+Method.\+Event\+Organizer\+Template\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+final void \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a3118236ea745afdeeed773aeac814818}{organize\+Event}} (\mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}} event)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a111df7702da90d08fc6a5e4545a73395}{validate\+Event\+Details}} (\mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}} event)
+\item 
+abstract void \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a0f3d37dbb0a80b42f7fb293703e4efb5}{prepare\+Event\+Resources}} (\mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}} event)
+\item 
+abstract void \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a4b447ec2867cf7078617929c7f562897}{finalize\+Event\+Setup}} (\mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}} event)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This abstract class defines a template for organizing events. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a4b447ec2867cf7078617929c7f562897}\label{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a4b447ec2867cf7078617929c7f562897} 
+\index{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}!finalizeEventSetup@{finalizeEventSetup}}
+\index{finalizeEventSetup@{finalizeEventSetup}!com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}}
+\doxysubsubsection{\texorpdfstring{finalizeEventSetup()}{finalizeEventSetup()}}
+{\footnotesize\ttfamily abstract void com.\+fullstack.\+fullstack.\+Template\+Method.\+Event\+Organizer\+Template.\+finalize\+Event\+Setup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Finalizes the setup for the event. 
+\begin{DoxyParams}{Parameters}
+{\em event} & The event for which setup is finalized. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_conference_organizer_a0fcc5351512ecf3eb356abb6b3040483}{com.\+fullstack.\+fullstack.\+Template\+Method.\+Conference\+Organizer}}.
+
+\Hypertarget{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a3118236ea745afdeeed773aeac814818}\label{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a3118236ea745afdeeed773aeac814818} 
+\index{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}!organizeEvent@{organizeEvent}}
+\index{organizeEvent@{organizeEvent}!com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}}
+\doxysubsubsection{\texorpdfstring{organizeEvent()}{organizeEvent()}}
+{\footnotesize\ttfamily final void com.\+fullstack.\+fullstack.\+Template\+Method.\+Event\+Organizer\+Template.\+organize\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Template method to organize an event. 
+\begin{DoxyParams}{Parameters}
+{\em event} & The event to be organized. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a0f3d37dbb0a80b42f7fb293703e4efb5}\label{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a0f3d37dbb0a80b42f7fb293703e4efb5} 
+\index{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}!prepareEventResources@{prepareEventResources}}
+\index{prepareEventResources@{prepareEventResources}!com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}}
+\doxysubsubsection{\texorpdfstring{prepareEventResources()}{prepareEventResources()}}
+{\footnotesize\ttfamily abstract void com.\+fullstack.\+fullstack.\+Template\+Method.\+Event\+Organizer\+Template.\+prepare\+Event\+Resources (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Prepares resources for the event. 
+\begin{DoxyParams}{Parameters}
+{\em event} & The event for which resources are prepared. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_conference_organizer_afcb2243304b1b7e3e0dfbb60fd79df8b}{com.\+fullstack.\+fullstack.\+Template\+Method.\+Conference\+Organizer}}.
+
+\Hypertarget{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a111df7702da90d08fc6a5e4545a73395}\label{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_event_organizer_template_a111df7702da90d08fc6a5e4545a73395} 
+\index{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}!validateEventDetails@{validateEventDetails}}
+\index{validateEventDetails@{validateEventDetails}!com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate@{com.fullstack.fullstack.TemplateMethod.EventOrganizerTemplate}}
+\doxysubsubsection{\texorpdfstring{validateEventDetails()}{validateEventDetails()}}
+{\footnotesize\ttfamily abstract void com.\+fullstack.\+fullstack.\+Template\+Method.\+Event\+Organizer\+Template.\+validate\+Event\+Details (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Validates the details of the event. 
+\begin{DoxyParams}{Parameters}
+{\em event} & The event to validate. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_template_method_1_1_conference_organizer_a76aad2695846da1c7623206bdf89d1b8}{com.\+fullstack.\+fullstack.\+Template\+Method.\+Conference\+Organizer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+fullstack/src/main/java/com/fullstack/fullstack/\+Template\+Method/\mbox{\hyperlink{_event_organizer_template_8java}{Event\+Organizer\+Template.\+java}}\end{DoxyCompactItemize}

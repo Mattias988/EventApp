@@ -1,0 +1,48 @@
+\doxysection{com.\+fullstack.\+fullstack.\+Controller.\+Event\+Controller Class Reference}
+\hypertarget{classcom_1_1fullstack_1_1fullstack_1_1_controller_1_1_event_controller}{}\label{classcom_1_1fullstack_1_1fullstack_1_1_controller_1_1_event_controller}\index{com.fullstack.fullstack.Controller.EventController@{com.fullstack.fullstack.Controller.EventController}}
+
+
+This class handles HTTP requests related to events.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Response\+Entity$<$ String $>$ \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_controller_1_1_event_controller_a5ccd95087e7996a8698e7355552ad791}{organize\+Event}} (@Request\+Body \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_d_t_os_1_1_event_d_t_o}{Event\+DTO}} event\+DTO)
+\item 
+List$<$ \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}} $>$ \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_controller_1_1_event_controller_ac1aba440a8f2462f609a19f625e81efb}{get\+All\+Events}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class handles HTTP requests related to events. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1fullstack_1_1fullstack_1_1_controller_1_1_event_controller_ac1aba440a8f2462f609a19f625e81efb}\label{classcom_1_1fullstack_1_1fullstack_1_1_controller_1_1_event_controller_ac1aba440a8f2462f609a19f625e81efb} 
+\index{com.fullstack.fullstack.Controller.EventController@{com.fullstack.fullstack.Controller.EventController}!getAllEvents@{getAllEvents}}
+\index{getAllEvents@{getAllEvents}!com.fullstack.fullstack.Controller.EventController@{com.fullstack.fullstack.Controller.EventController}}
+\doxysubsubsection{\texorpdfstring{getAllEvents()}{getAllEvents()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_entity_1_1_event}{Event}} $>$ com.\+fullstack.\+fullstack.\+Controller.\+Event\+Controller.\+get\+All\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Handles the GET request to retrieve all events. \begin{DoxyReturn}{Returns}
+List$<$\+Event$>$ Returns a list of all events. 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1fullstack_1_1fullstack_1_1_controller_1_1_event_controller_a5ccd95087e7996a8698e7355552ad791}\label{classcom_1_1fullstack_1_1fullstack_1_1_controller_1_1_event_controller_a5ccd95087e7996a8698e7355552ad791} 
+\index{com.fullstack.fullstack.Controller.EventController@{com.fullstack.fullstack.Controller.EventController}!organizeEvent@{organizeEvent}}
+\index{organizeEvent@{organizeEvent}!com.fullstack.fullstack.Controller.EventController@{com.fullstack.fullstack.Controller.EventController}}
+\doxysubsubsection{\texorpdfstring{organizeEvent()}{organizeEvent()}}
+{\footnotesize\ttfamily Response\+Entity$<$ String $>$ com.\+fullstack.\+fullstack.\+Controller.\+Event\+Controller.\+organize\+Event (\begin{DoxyParamCaption}\item[{@Request\+Body \mbox{\hyperlink{classcom_1_1fullstack_1_1fullstack_1_1_d_t_os_1_1_event_d_t_o}{Event\+DTO}}}]{event\+DTO }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Handles the POST request to organize an event. 
+\begin{DoxyParams}{Parameters}
+{\em event\+DTO} & The event data received from the client. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Response\+Entity$<$\+String$>$ Returns a response entity indicating the status of the event organization. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+fullstack/src/main/java/com/fullstack/fullstack/\+Controller/\mbox{\hyperlink{_event_controller_8java}{Event\+Controller.\+java}}\end{DoxyCompactItemize}
